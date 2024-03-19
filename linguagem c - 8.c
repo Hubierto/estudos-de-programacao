@@ -7,7 +7,7 @@ int main() {
 	
 	float salario, quantidadeDeSalarios, salarioMinimo = 1412.00;
 	
-	printf("Digite o valor do seu sal�rio: ");
+	printf("Digite o valor do seu salário: ");
 	scanf("%f",&salario);
 	
 	quantidadeDeSalarios = salario/salarioMinimo;
@@ -15,5 +15,9 @@ int main() {
 	system("cls || clear");
 	
 	printf("\n=== EXIBINDO RESULTADOS ===");
+	printf("Salário informado: %.2f \n",salario);
+	printf("Quantidades de salários %.1f\n",quantidadeDeSalarios);
+	
+	return 0;
 	
 }
