@@ -7,7 +7,7 @@ int main() {
 	int macas;
 	float valorDasMacas, valorTotalDasMacas;
 	
-	printf("Maçãs desejadas: ");
+	printf("MaÃ§Ã£s desejadas: ");
 	scanf("%i",&macas);
 	
 	if (macas <12) {
@@ -19,8 +19,8 @@ int main() {
 	system("cls || clear");
 	
 	printf("=== EXIBINDO RESULTADOS === \n");
-	printf("Maçãs compradas: %i \n", macas);
-	printf("Valor total das maçãs: %f \n", valorTotalDasMacas);
+	printf("MaÃ§Ã£s compradas: %i \n", macas);
+	printf("Valor total das maÃ§Ã£s: %.2f \n", valorTotalDasMacas);
 			
 			
 		return 0;	
