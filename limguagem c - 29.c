@@ -9,7 +9,7 @@ int main() {
 	float media;
 	
 	while(valores > 0) {
-	printf(" Digite um número inteiro: ");
+	printf(" Digite um nÃºmero inteiro: ");
 	scanf("%i",&valores); 
 	
 	if (valores > 0) {
@@ -22,8 +22,8 @@ int main() {
 	
 	printf("=== Exibindo resultados ===\n");
 	if (contador == 0) {
-		printf("Não foram inseridos números positivos. \n");
-	} else { ("Média: %.1f \n", media);
+		printf("NÃ£o foram inseridos nÃºmeros positivos. \n");
+	} else { printf("MÃ©dia: %.1f \n", media);
 	}
 	
 	
