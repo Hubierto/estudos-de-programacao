@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-#define IeN 2
+#define IeN 6
 
 int main(){
 	setlocale(LC_ALL,"");
@@ -11,20 +11,20 @@ int main(){
 	
 	printf("=== EXIBINDO DADOS ===");
 	for(i = 0; i < IeN; i++) {
-		printf("\nDigite o %dº nome: ", i + 1);
+		printf("\nDigite o %dÂº nome: ", i + 1);
 		scanf("%s",&nome[i]);
 		
 		fflush(stdin);
 		
-		printf("\nDigite a %dª idade: ", i + 1);
+		printf("\nDigite a %dÂª idade: ", i + 1);
 		scanf("%i",&idade[i]);
 }
      
     system("cls || clear"); 
     printf("=== Exibindo resultados ===");
 	for(i = 0; i < IeN; i++){
-	printf("\nSeu nome: %sº \n", nome[i]);
-	printf("sua idade: %iº \n", idade[i]);
+	printf("\nSeu nome: %sÂº \n", nome[i]);
+	printf("sua idade: %iÂº \n", idade[i]);
 }
 
 	return 0;	
